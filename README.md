@@ -8,7 +8,7 @@ These instructions will allow you to get the project up and running on your loca
 
 ### Prerequisites
 
-Project developed using MAMP, Drupal, MySQL
+Project developed using MAMP, Drupal, MySQL, PHP, Apache.
 
 ### Installing
 
