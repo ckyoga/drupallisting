@@ -1,6 +1,6 @@
 # drupallisting
 
-Drupal implemented site to manage real estate listigs
+Drupal implemented site to manage real estate listings
 
 ## Getting Started
 
