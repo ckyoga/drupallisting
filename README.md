@@ -20,13 +20,13 @@ Installation instructions
 --------------
 + Checkout this repository and place the “drupallisting” folder under your apache path.
 + Create an MySQL database named 'dbCMS' and import the “dbCMS.sql” file.
-+ Create the drupal user on your new database.
++ Create the following drupal user on your new database.
 - database user: userCMS
 - database password: drupal
 - mysql commands:
-CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';
-GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';
-FLUSH PRIVILEGES;
+- CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';
+- GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';
+- FLUSH PRIVILEGES;
 
 + Point your webserver document root to the "drupallisting" folder
 
