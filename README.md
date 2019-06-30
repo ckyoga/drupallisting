@@ -25,7 +25,7 @@ Installation instructions
 
 + Point your webserver document root to the "drupallisting" folder
 
-User Login to this site for managing listing with the following credentials:
+User Login to this site for managing listings with the following credentials:
 - u: listuser
 - p: listlist
 
