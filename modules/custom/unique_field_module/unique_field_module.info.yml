@@ -1,0 +1,6 @@
+name: Unique Field Module
+description: A module to make sure MLS Number is unique
+package: Custom
+type: module
+version: 1.0
+core: 8.x

@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_entity_base_field_info_alter().
+ */
+function projectname_commerce_entity_base_field_info_alter(&$fields, EntityTypeInterface $entity_type) {
+  if ($entity_type->id() === 'real_estate_listings') {
+    if (!empty($fields['field_mls_number'])) {
+      $fields['field_mls_number']->addConstraint('UniqueInteger');
+    }
+  }
+}
