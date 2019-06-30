@@ -16,9 +16,9 @@ Clone or download the repository from github
 
 `git clone https://github.com/ckyoga/drupallisting.git`
 
-Installation instructions
---------------
+
 + Checkout this repository and place the “drupallisting” folder under your apache path.
+
 + Create an MySQL database named 'dbCMS'
 
 + Create the following drupal user on your new MySQL database.
@@ -26,9 +26,9 @@ Installation instructions
 - database password: drupal
 
 - mysql commands:
-- CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';
-- GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';
-- FLUSH PRIVILEGES;
+`CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';`
+`GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';`
+`FLUSH PRIVILEGES;`
 
 + Import the dbCMS.sql file into your new MySQL database
 - MySQL import command
