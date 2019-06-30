@@ -26,13 +26,16 @@ Clone or download the repository from github
 - database password: drupal
 
 - mysql commands:
+
 `CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';`
 `GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';`
 `FLUSH PRIVILEGES;`
 
 + Import the dbCMS.sql file into your new MySQL database
+
 - MySQL import command
-/Applications/MAMP/Library/bin/mysql -u userCMS -p dbCMS < dbCMS.sql
+
+`/Applications/MAMP/Library/bin/mysql -u userCMS -p dbCMS < dbCMS.sql`
 
 + Point your webserver document root to the "drupallisting" folder
 
