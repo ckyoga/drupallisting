@@ -1,55 +1,57 @@
-# drupallisting
+Real Estate Lister
+==================
 
-Drupal implemented site to manage real estate listings
+Real estate listing manager created with Drupal 8
 
-## Getting Started
+Getting Started
+----------------
 
-These instructions will allow you to get the project up and running on your local machine for development and testing purposes. 
+These instructions will allow assist in getting the project up and running on your local machine. 
 
-### Prerequisites
 
-Project developed using MAMP, Drupal 8, MySQL, PHP, Apache.
-
-### Installing
+Installing
+----------
 
 Clone or download the repository from github
 
 `git clone https://github.com/ckyoga/drupallisting.git`
 
 
-+ Checkout this repository and place the “drupallisting” folder under your apache path.
+Checkout this repository and place the “drupallisting” folder under your apache path.
 
-+ Create an MySQL database named 'dbCMS'
+Create an MySQL database named 'dbCMS'
 
-+ Create the following drupal user on your new MySQL database.
+Create the following drupal user on your new MySQL database.
 - database user: userCMS
 - database password: drupal
 
 - mysql commands:
 
 `CREATE USER 'userCMS'@'localhost' IDENTIFIED BY 'drupal';`
+
 `GRANT ALL PRIVILEGES ON * . * TO 'userCMS'@'localhost';`
+
 `FLUSH PRIVILEGES;`
 
-+ Import the dbCMS.sql file into your new MySQL database
+Import the dbCMS.sql file into the new `dbCMS` MySQL database
 
 - MySQL import command
 
 `/Applications/MAMP/Library/bin/mysql -u userCMS -p dbCMS < dbCMS.sql`
 
-+ Point your webserver document root to the "drupallisting" folder
+Point your webserver document root to the "drupallisting" folder
 
-User Login to this site for managing listings with the following credentials:
+User Login to manage listings:
 - u: listuser
 - p: listlist
 
-Admin Login to this site for managing drupal with the following credentials:
+Admin Login to manage drupal:
 - u: admin
 - p: admin
 
-## Author
+Author
+------
 
 **Caroline Burns** 
 
 ### Enjoy!
-
