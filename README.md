@@ -19,7 +19,7 @@ Clone or download the repository from github
 
 Checkout this repository and place the “drupallisting” folder under your apache path.
 
-Create an MySQL database named 'dbCMS'
+Create a MySQL database named 'dbCMS'
 
 Create the following drupal user on your new MySQL database.
 - database user: userCMS
