@@ -6,7 +6,7 @@ Real estate listing manager created with Drupal 8
 Getting Started
 ----------------
 
-These instructions will allow assist in getting the project up and running on your local machine. 
+These instructions will assist in getting the project up and running on your local machine. 
 
 
 Installing
